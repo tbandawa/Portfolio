@@ -40,10 +40,8 @@ a {
 }
 
 .s-layout__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+    background-color: burlywood;
+    width: 100%;
 }
 
 /* Sidebar */
