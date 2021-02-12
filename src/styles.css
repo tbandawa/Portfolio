@@ -74,17 +74,16 @@
 }
   
 .sidenav-footer {
-    position: absolute;
     font-size:smaller;
-    height: 3.5em;
     color: #2c2c2c;
-     left: 0 ; right: 0; bottom: 0;
+    left: 0 ; 
+    right: 0; 
+    bottom: 0;
 }
   
   .main {
     margin-left: 250px;
-    font-size: 28px;
-    padding: 0px 10px;
+    padding: 0px 0px;
   }
   
   @media screen and (max-height: 450px) {

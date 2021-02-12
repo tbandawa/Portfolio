@@ -1,19 +1,22 @@
-.vcenter-item{
-    display: flex;
-}
-
-.wrapper{
+/* 
+    Created on : Feb 7, 2021, 11:00:23 PM
+    Author     : tee
+*/
+.fill { 
+    position: relative;
     min-height: 100%;
+    height: 100vh;
 }
 
 .box{
     padding: 25px;
     position: absolute;
     top: 35%;
-    left: 40%;
-    transform: translate(-50%, -50%);
 }
 
-hr.line {
-    height: 1px;
+.social {
+    position: absolute;
+    bottom:5%;
+    font-size:smaller;
+    color: #2c2c2c;
 }
