@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Tee" >
   <title>Tendai Bandawa</title>
@@ -10,62 +10,40 @@
 
 <body>
 
-  <div class="s-layout">
-    
-    <!-- Sidebar -->
-    <div class="s-layout__sidebar">
-
-      <a class="s-sidebar__trigger" href="">
-        <i class="fa fa-bars"></i>
-      </a>
-
-      <nav class="s-sidebar__nav">
-
-        <div class="s-sidebar_logo">
-          <img src="assets/logo.png" class="logo"  alt="Tendai Bandawa">
+    <div class="sidenav">
+        <div class="sidenav-logo">
+            <img src="assets/logo.png" class="logo"  alt="Tendai Bandawa">
         </div>
-      
-        <ul style="margin: 0;
-                          position: absolute;
-                          top: 50%;
-                          left: 50%;
-                          -ms-transform: translate(-50%, -50%);
-                          transform: translate(-50%, -50%);
-                          list-style: none;">
-          <li>
-           <a class="s-sidebar__nav-link" href="" target="content">
-              <em>about</em>
-           </a>
-          </li>
-          <li>
-           <a class="s-sidebar__nav-link" href="/portfolio" target="content">
-             <em>portfolio</em>
-           </a>
-          </li>
-          <li>
-           <a class="s-sidebar__nav-link" href="/resume" target="content">
-              <em>resume</em>
-           </a>
-          </li>
-          <li>
-           <a class="s-sidebar__nav-link" href="/contact" target="content">
-              <em>contact</em>
-           </a>
-          </li>
+        <ul class="sidenav-ul">
+            <li>
+                <a class="sidenav-nav-link" href="/about">
+                    about
+                </a>
+            </li>
+            <li>
+                <a class="sidenav-nav-link" href="/portfolio">
+                    portfolio
+                </a>
+            </li>
+            <li>
+                <a class="sidenav-nav-link" href="/resume">
+                    resume
+                </a>
+            </li>
+            <li>
+                <a class="sidenav-nav-link" href="/contact">
+                    contact
+                </a>
+            </li>
         </ul>
-      
-        <div class="s-sidebar_footer">
+        <div class="sidenav-footer">
             <p>© 2021 Tendai Bandawa. All rights reserved.</p>
         </div>
-      </nav>
-    
+    </div>
+      
+    <div class="main">
+        <router-outlet></router-outlet>
     </div>
 
-    <!-- Content -->
-    <main class="s-layout__content">
-      <router-outlet></router-outlet>
-    </main>
-
-  </div>
 </body>
 </html>
