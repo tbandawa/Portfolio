@@ -1,0 +1,73 @@
+/* 
+    Created on : Feb 7, 2021, 11:00:23 PM
+    Author     : tee
+*/
+.fill { 
+    position: relative;
+}
+
+.box{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    width: 70%;
+    margin: auto
+}
+
+.btn-back {
+    color: white;
+    background-color: black;
+}
+
+.btn-back:hover {
+    color: white;
+    background-color: rgb(83, 83, 83);
+}
+
+h1 {
+    font-size: 40px;
+    font-style: oblique;
+    color: rgb(38, 38, 38);
+    margin-left: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(38, 38, 38);
+}
+
+p {
+    font-size: 18px;
+    color: rgb(83, 83, 83);
+}
+
+.feature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play {
+    height: 35px;
+    width: auto
+}
+
+.roles {
+    list-style-type: circle;
+}
+
+.footer {
+    border-top:  1px solid black;
+    position: absolute;
+    display: block;
+    font-size:smaller;
+    color: #636363;
+    height: 2em;
+    left:  2%;
+    right: 2%;
+}
